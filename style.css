@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(988124.jpg);
+    background-size: cover;
+
+    background-position: center;
+    box-sizing: border-box;
+    height: 100vh;
+    
+
+}
+.menu-bar{
+    background: rgb(189, 255, 8);
+    text-align: center;
+    width: 776px;
+    position: relative;
+    left: 200px;
+    top: 5px;
+    border-radius: 12px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+.menu-bar ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 0px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    /* border: 3.5px solid white;
+    border-radius: 5px;
+    margin: 2px; */
+    font-size: 25px;
+}
+.menu-bar ul li:hover{
+    background: white;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 9px;
+}
+
+.sub-menu-1{
+    display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(189, 255, 8);
+    margin-top: 15px;
+    margin-left: -25px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted wheat;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: white;
+    border-radius: 3px;
+}
+.form{
+    width: 280px;
+    height: 430px;
+    background: linear-gradient(to top, rgba(6, 27, 11, 0.3) 10%, rgba(99, 60, 241, 0.3) 100%);
+    position: relative;
+    top:50px;
+    left: 1100px;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 25px;
+}
+
+.form h2{
+    color: aliceblue;
+    background-color: orange;
+    position: relative;
+    float: right;
+    right: 34px;
+    border: 10px solid orange;
+    border-radius: 8px;
+    top: 1px;
+    width: 200px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 42px;
+}
+.form input{
+    width: 250px;
+    height: 45px;
+    background: transparent;
+    border-bottom: 1px dotted white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: wheat;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-family: cursive;
+}
+.link{
+    color: aliceblue;
+    margin: 10px;
+}
+    
+.btnm{
+    font-family: cursive;
+    background-color: orange;
+    width: 115px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    position: relative;
+    left: 75px;
+    font-size: 22px;
+}
+.btnm2{
+font-family: cursive;
+background-color: #b2ff00;
+width: 105px;
+height: 35px;
+border: 2px solid white;
+border-radius: 9px;
+margin-top: 37px;
+margin-bottom: 0px;
+position: relative;
+left: 6px;
+top: -26px;
+font-size: 10px;
+}
+
+
+.search{
+    width: 227px;
+    position: relative;
+    left: 1005px;
+    top: -535px;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    text-align-last: center;
+}
+
+.btn{
+    width: 63px;
+    height: 54px;
+    background: greenyellow;
+    border: 2px solid white;
+    margin-top: 1px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.join{
+    font-family: cursive;
+    height: 50px;
+    width: 154px;
+    position: relative;
+    left: 1px;
+}
+span{
+    color: #b2ff00;
+    font-size: 40px;
+
+}
+.content{
+    color: white;
+    position: relative;
+    left: 60px;
+    bottom: 310px;
+    width: 400px;
+}
+
+.buttonkk {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+    width: 321px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    position: relative;
+    left: 50px;
+    bottom: 304px;
+
+  }
+  
+  .buttonkk span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonkk span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonkk:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonkk:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .form2{
+    color:white;
+    font-size: 30px;
+    /* border: 3px groove yellow; */
+    position: relative;
+    /* text-decoration: underline; */
+    bottom: 235px;
+    width: 326px;
+    left: 38px;
+    text-align: center;
+    height: 184px;
+    border-radius: 19px;  
+  }
+  .form2 ul li {
+      color: yellow;
+      list-style: none;
+      cursor: pointer;
+      font-size: 18px;
+      margin: 5px;
+      margin-top: 10px;
+  }
+  .form2 ul li:hover{
+    color: wheat;
+    /* text-decoration: underline; */
+    border: 0.1px solid white;
+    border-radius: 6px;
+    border-width: 2px;
+  }
+  .form4{
+    color:white;
+    font-size: 30px;
+    /* border: 3px groove yellow; */
+    position: relative;
+    bottom: 422px;
+    /* text-decoration: underline; */
+    width: 272px;
+    left: 504px;
+    text-align: center;
+    height: 184px;
+    border-radius: 19px;
+  }
+  .form4 ul li {
+      color: yellow;
+      list-style: none;
+      cursor: pointer;
+      font-size: 18px;
+      margin: 5px;
+      margin-top: 10px;
+  }
+  .form4 ul li:hover{
+      color: wheat;
+      /* text-decoration: underline; */
+      border: 0.1px solid white;
+      border-radius: 6px;
+      border-width: 2px;
+  }
+  .form3{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    /* border: 3px groove yellow; */
+    bottom: 606px;
+    width: 230px;
+    left: 950px;
+    text-align: center;
+    height: 184px;
+    /* text-decoration: underline; */
+    border-radius: 19px;
+  }
+  .form3 ul li{ 
+      color: yellow;
+      padding: 10px;
+      list-style: none;
+      display: inline-flex;
+      cursor: pointer;
+  }
+  .form3 ul li:hover{
+      color: white;
+      border: 2px solid white;
+      border-radius: 6px;
+    }
+ 
+
+  
